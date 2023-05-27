@@ -1,10 +1,6 @@
-#+title: Ανάλυση και Σχεδίαση Συστημάτων Λογισμικού
+#+title: ΑΣΣΛ: Εργασία εαρινού εξαμήνου 2023
 #+language: gr
 #+options: num:nil toc:nil date:nil timestamp:nil
-
-#+begin_center
-Εργασία εαρινού εξαμήνου 2023
-#+end_center
 
 ** Guidelines
 
