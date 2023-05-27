@@ -1,10 +1,16 @@
 #+title: Ανάλυση και Σχεδίαση Συστημάτων Λογισμικού
-#+subtitle: Εαρινό Εξάμηνο 2023
-#+author: Κωνσταντίνος Χούσος
-#+author: Αναστάσιος-Φαίδων Σεϊτανίδης
 #+language: gr
 #+options: num:nil toc:nil date:nil timestamp:nil
 
-*** Guidelines
+#+begin_center
+Εργασία εαρινού εξαμήνου 2023
+#+end_center
+
+** Guidelines
 
 - Όλα τα σχεδιαγράμματα πρέπει να είναι μορφής =.mdj= (το file extension που χρησιμοποιεί και το StarUML).
+
+** Ομάδα
+
+- Κωνσταντίνος Χούσος (@kchousos)
+- Αναστάσιος-Φαίδων Σεϊτανίδης (@FedonSeitan)
