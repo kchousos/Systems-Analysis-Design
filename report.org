@@ -1,0 +1,28 @@
+#+title: Ανάλυση & Σχεδίαση Συστημάτων Λογισμικού
+#+subtitle: Εαρινό Εξάμηνο 2023
+#+author: Αναστάσιος-Φαίδων Σεϊτανίδης\thanks{Student ID: 1115202000179}, Κωνσταντίνος Χούσος\thanks{Student ID: 1115202000215}
+#+language: gr
+#+options: num:t toc:nil date:nil timestamp:nil
+:LATEX_PROPERTIES:
+#+LATEX_CLASS: article
+
+#+LATEX_CLASS_OPTIONS: [a4paper, titlepage, twoside]
+
+#+LATEX_HEADER: \usepackage{newcomputermodern}
+
+#+LATEX_HEADER: \usepackage{polyglossia}
+#+LATEX_HEADER: \setmainlanguage{greek}
+#+LATEX_HEADER: \setotherlanguage{english}
+
+#+LATEX_HEADER: \renewcommand*{\thefootnote}{\fnsymbol{footnote}}
+
+#+LATEX_HEADER: \pagestyle{headings}
+
+#+LATEX_HEADER: \usepackage{microtype}
+
+#+LATEX_HEADER: \renewcommand{\baselinestretch}{1.2}
+
+#+LATEX_HEADER: \usepackage[margin=1.4in]{geometry}
+
+#+LATEX_HEADER: \usepackage[font={small}, labelfont={}]{caption}
+:END:
