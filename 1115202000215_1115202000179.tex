@@ -25,7 +25,9 @@
 
 %% ox-latex features:
 %   !announce-start, !guess-pollyglossia, !guess-babel, !guess-inputenc,
-%   !announce-end.
+%   image, !announce-end.
+
+\usepackage{graphicx}
 
 %% end ox-latex features
 
@@ -50,6 +52,158 @@ urlcolor=blue}\begin{document}
 \tableofcontents
 
 
+\newpage
+
 \section{Εισαγωγή}
-\label{sec:org017da7d}
+\label{sec:org2ac16cb}
+
+
+\subsection{Συνεργασία}
+\label{sec:org14bbf67}
+
+Τα ζητούμενα της εργασίας είχαν αποτυπωθεί σε μια ιεραρχική λίστα από tasks. Τα μέλη, μέσα από συναντήσεις δια ζώσης αλλά και εξ' αποστάσεως, συνεργαζόμασταν μαζί για το κάθε ένα. Για κάθε καινούργιο ερώτημα, υλοποιούσαμε συνεργατικά το πρώτο διάγραμμα και σε περίπτωση που ήταν πλήρως κατανοητή η διαδικασία υλοποιούσαμε ο καθένας ένα από τα υπόλοιπα, π.χ. για τα διαγράμματα περιπτώσεων χρήσης κάναμε μαζί το διάγραμμα της διαδικασίας 1 κι ύστερα κάναμε ξεχωριστά τα υπόλοιπα, συζητώντας οποιεσδήποτε τυχόν αμφιβολίες μεταξύ μας.
+
+Δημιουργήσαμε ένα Github repo για την εργασία (το οποίο μετά την λήξη της διορίας θα γίνει δημόσιο με διεύθυνση το link \url{https://github.com/kchousos/Systems-Analysis-Design/tree/master}). Καθώς το \texttt{.mdj} filetype που χρησιμοποιεί η StarUML πρόκειται στην πραγματικότητα για ένα text αρχείο, το version control βοήθησε την συνεργασία μας κι έκανε την διαδικασία πιο ομαλή.
+
+\subsection{Παραδοχές}
+\label{sec:org464930f}
+
+\begin{itemize}
+\item Όσον αφορά τα διαγράμματα ακολουθίας, πολλές λειτουργίες που στην εκφώνηση συμβαίνουν μεταξύ χρήστη και συστήματος εμφανίζονται ως μηνύματα μεταξύ του χρήστη και των άμεσα ενδιαφερόμενων οντοτήτων. Αυτή η προσέγγιση επιλέχτηκε καθώς με την εναλλακτική χανόταν μεγάλο μέγεθος πληροφορίας από τα διαγράμματα.
+\item Οι αξιολογητές κι οι εκπαιδευτές θεωρούνται διαφορετικές οντότητες.
+\item Στην περιγραφή σεναρίων της διαδικασίας 1, όταν ο αιτών γίνεται υποψήφιος, λειτουργικά δεν αλλάζει κάτι. Για αυτό παραλείπεται ως \emph{χειριστής}.
+\end{itemize}
+
+\section{Μέρος Α: UML}
+\label{sec:org016e52b}
+
+\subsection{Ερώτημα 1}
+\label{sec:orgf76e48c}
+
+\subsubsection{Σενάρια περιπτώσεων διαδικασίας 1}
+\label{sec:org7083612}
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{2023-05-31_23-27-36_screenshot.png}
+\end{center}
+\begin{center}
+\includegraphics[width=.9\linewidth]{2023-05-31_23-27-45_screenshot.png}
+\end{center}
+\begin{center}
+\includegraphics[width=.9\linewidth]{2023-05-31_23-27-53_screenshot.png}
+\end{center}
+\begin{center}
+\includegraphics[width=.9\linewidth]{2023-05-31_23-28-00_screenshot.png}
+\end{center}
+\begin{center}
+\includegraphics[width=.9\linewidth]{2023-05-31_23-28-07_screenshot.png}
+\end{center}
+
+\subsubsection{Διαγράμματα Περιπτώσεων Χρήσης}
+\label{sec:org8d781e5}
+
+\begin{enumerate}
+\item Διαδικασία 1
+\label{sec:org69bd4fa}
+\begin{center}
+\includegraphics[width=.9\linewidth]{use-case_1.pdf}
+\end{center}
+\item Διαδικασία 2
+\label{sec:org899c00c}
+\begin{center}
+\includegraphics[width=.9\linewidth]{use-case_2.pdf}
+\end{center}
+\item Διαδικασία 3
+\label{sec:org34d1430}
+\begin{center}
+\includegraphics[width=.9\linewidth]{use-case_3.pdf}
+\end{center}
+\item Διαδικασία 4
+\label{sec:org3064bc6}
+\begin{center}
+\includegraphics[width=.9\linewidth]{use-case_4.pdf}
+\end{center}
+\end{enumerate}
+
+\subsection{Ερώτημα 2}
+\label{sec:org61b4db5}
+
+\subsubsection{Διαγράμματα Κλάσεων}
+\label{sec:org3673136}
+
+\begin{enumerate}
+\item Διαδικασία 1
+\label{sec:orgcc809d2}
+\begin{center}
+\includegraphics[width=.9\linewidth]{class_1.pdf}
+\end{center}
+\item Διαδικασία 2
+\label{sec:orgc390fbf}
+\begin{center}
+\includegraphics[width=.9\linewidth]{class_2.pdf}
+\end{center}
+\item Διαδικασία 3
+\label{sec:org77b8c75}
+\begin{center}
+\includegraphics[width=.9\linewidth]{class_3.pdf}
+\end{center}
+\item Διαδικασία 4
+\label{sec:orgdbdbd47}
+\begin{center}
+\includegraphics[width=.9\linewidth]{class_4.pdf}
+\end{center}
+\end{enumerate}
+
+\subsection{Ερώτημα 3}
+\label{sec:org5ec6946}
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{state.pdf}
+\end{center}
+
+\subsection{Ερώτημα 4}
+\label{sec:org24fc5ab}
+
+\begin{enumerate}
+\item Διαδικασία 1
+\label{sec:orgc1bc986}
+\begin{center}
+\includegraphics[width=.9\linewidth]{seq_1.pdf}
+\end{center}
+\item Διαδικασία 3
+\label{sec:org3de980b}
+\begin{center}
+\includegraphics[width=.9\linewidth]{seq_3.pdf}
+\end{center}
+\item Διαδικασία 4
+\label{sec:org56cfad9}
+\begin{center}
+\includegraphics[width=.9\linewidth]{seq_4.pdf}
+\end{center}
+\end{enumerate}
+
+\subsection{Ερώτημα 5}
+\label{sec:org3bccd44}
+
+\section{Μέρος Β: Δομημένη Ανάλυση}
+\label{sec:org7c58a39}
+
+\subsection{Ερώτημα 6}
+\label{sec:org33db79c}
+
+\subsubsection{Επίπεδο αφαίρεσης 0 φορέα}
+\label{sec:org665f318}
+\begin{center}
+\includegraphics[width=.9\linewidth]{drd0.pdf}
+\end{center}
+\subsubsection{Επίπεδο αφαίρεσης 1 φορέα}
+\label{sec:org92df6f8}
+\begin{center}
+\includegraphics[width=.9\linewidth]{drd1.pdf}
+\end{center}
+\subsubsection{Επίπεδο αφαίρεσης 2 διαδικασίας 2}
+\label{sec:orgfcc3284}
+\begin{center}
+\includegraphics[width=.9\linewidth]{drd2.pdf}
+\end{center}
 \end{document}
