@@ -52763,7 +52763,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "DRD0",
+			"name": "DRD",
 			"ownedElements": [
 				{
 					"_type": "DFDDiagram",
@@ -52864,7 +52864,8 @@
 									"left": 602,
 									"top": 261,
 									"width": 317,
-									"height": 13
+									"height": 13,
+									"text": "0"
 								}
 							],
 							"font": "Arial;13;0",
@@ -54291,7 +54292,8 @@
 								"$ref": "AAAAAAGIcwrX3Po4IeE="
 							}
 						}
-					]
+					],
+					"id": "0"
 				},
 				{
 					"_type": "DFDExternalEntity",
@@ -54354,6 +54356,136 @@
 							}
 						}
 					]
+				},
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAGIcxy+8vusS44=",
+					"_parent": {
+						"$ref": "AAAAAAGIcwOSffnAVcI="
+					},
+					"name": "DRD1",
+					"ownedViews": [
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGIcyBeePwi3CM=",
+							"_parent": {
+								"$ref": "AAAAAAGIcxy+8vusS44="
+							},
+							"model": {
+								"$ref": "AAAAAAGIcyBeePwgNUw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGIcyBeePwo1Bw=",
+									"_parent": {
+										"$ref": "AAAAAAGIcyBeePwi3CM="
+									},
+									"font": "Arial;13;0",
+									"left": 106,
+									"top": 149,
+									"width": 204,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGIcyBeePwjTt4=",
+									"_parent": {
+										"$ref": "AAAAAAGIcyBeePwi3CM="
+									},
+									"font": "Arial;13;0",
+									"left": 106,
+									"top": 154,
+									"width": 204,
+									"height": 13,
+									"text": "Χρήστης",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGIcyBeePwkOO4=",
+									"_parent": {
+										"$ref": "AAAAAAGIcyBeePwi3CM="
+									},
+									"font": "Arial;13;0",
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 96,
+							"top": 144,
+							"width": 224,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGIcyBeePwjTt4="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGIcyCAW/wuu2o=",
+							"_parent": {
+								"$ref": "AAAAAAGIcxy+8vusS44="
+							},
+							"model": {
+								"$ref": "AAAAAAGIcyCAW/wsS7I="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGIcyCAW/wvBnE=",
+									"_parent": {
+										"$ref": "AAAAAAGIcyCAW/wuu2o="
+									},
+									"font": "Arial;13;0",
+									"left": 562,
+									"top": 224,
+									"width": 356,
+									"height": 13,
+									"text": "Αίτηση/εγγραφή στον εκπαιδευτικό φορέα ",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGIcyCAW/wwSAQ=",
+									"_parent": {
+										"$ref": "AAAAAAGIcyCAW/wuu2o="
+									},
+									"font": "Arial;13;0",
+									"left": 562,
+									"top": 197,
+									"width": 356,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 552,
+							"top": 192,
+							"width": 376,
+							"height": 160,
+							"nameLabel": {
+								"$ref": "AAAAAAGIcyCAW/wvBnE="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGIcyCAW/wwSAQ="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGIcyBeePwgNUw=",
+					"_parent": {
+						"$ref": "AAAAAAGIcwOSffnAVcI="
+					},
+					"name": "Χρήστης"
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGIcyCAW/wsS7I=",
+					"_parent": {
+						"$ref": "AAAAAAGIcwOSffnAVcI="
+					},
+					"name": "Αίτηση/εγγραφή στον εκπαιδευτικό φορέα "
 				}
 			]
 		}
